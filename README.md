@@ -1,2 +1,10 @@
-# DDS2016
-TP Anual 2016 de Diseño de Sistemas, UTN FRBA
+# TP de Diseño de Sistemas
+TP Anual de Diseño de Sistemas, UTN FRBA
+
+## Tecnologías
+* Java
+* Spring
+* Maven
+* Angular
+* MySQL
+* MongoDB
