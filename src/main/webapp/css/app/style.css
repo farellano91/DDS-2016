@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    overflow-y: overlay;
+}
+
+body {
+    background-color: #FFD300;
+}
+
+#logo {
+    display: block;
+    margin-top: 15px;
+    margin-left: 1%;
+    width: 250px;
+    height: 44.219px;
+}
+
+#sin-resultados {
+    margin-top: 3%;
+}
+
+/*********** Searchbar **********/
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 no tiene border-radius, entonces no indentar el padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** los estilos de abajo funcionan bien */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 no tiene border-radius, entonces no identar el padding */
+        margin-bottom: 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#000;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+/********** Fin searchbar **********/
+
+.poi {
+    margin-top: 20px;
+    padding: 10px;
+    height: 2%;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#loading-backdrop-container {
+    display: flex;
+    justify-content: center;
+}
+
+#backdrop {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+#loading-spinner {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 4;
+}
+
+.icono-poi {
+    width: 40px;
+    height: 40px;
+}
+
+#modal {
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    right: 0;
+}
+
+#tablaBusquedas {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+#encabezadoTablaBusquedas {
+    background-color: #AAAAAA;
+}
+
+.boton-menu {
+    margin-top: 10px;
+}
+
+.resultadosCero {
+    text-align: center;
+    font-weight: 500;
+}
